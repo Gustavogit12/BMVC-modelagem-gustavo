@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/filmes.css">
+</head>
+<body>
+    <div class="caixa">
+        <h1>Portal - Login</h1>
+        <form action="/portal" method="post">
+            <label for="username">Nome:</label>
+            <input id="username" name="username" type="text" required /><br>
+
+            <label for="password">Senha:</label>
+            <input id="password" name="password" type="password" required /><br>
+
+            <input value="Login" type="submit" />
+        </form>
+    </div>
+</body>
+</html>
